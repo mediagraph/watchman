@@ -31,3 +31,5 @@ config.sub
 config.guess
 configure.lineno
 python/bser/build
+debian/*.log
+debian/*.substvars

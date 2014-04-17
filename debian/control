@@ -1,0 +1,21 @@
+Source: watchman
+Section: misc
+Priority: extra
+Maintainer: Hunter Blanks <hblanks@artifex.org>
+Build-Depends: debhelper (>= 8.0.0), autoconf
+Standards-Version: 3.9.3
+Homepage: https://github.com/hblanks/watchman/
+# Vcs-Git: https://github.com/hblanks/watchman/
+
+Package: watchman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: watches files and takes action when they change
+ Per https://github.com/facebook/watchman:
+ .
+ Watchman exists to watch files and record when they actually change. It
+ can also trigger actions (such as rebuilding assets) when matching
+ files change.
+ .
+ This package is maintained for debian via a fork at
+ https://github.com/hblanks/watchman/

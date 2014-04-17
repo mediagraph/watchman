@@ -33,3 +33,5 @@ python/bser/build
 test-suite.log
 tests/*.log
 tests/*.trs
+debian/*.log
+debian/*.substvars

@@ -1,0 +1,4 @@
+watchman /usr/bin/
+README.markdown /usr/share/doc/watchman/
+docs/casefolding.markdown /usr/share/doc/watchman/
+docs/cookies.markdown /usr/share/doc/watchman/
